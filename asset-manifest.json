@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/landing-page-agency-travels/static/css/main.1dcaae47.css",
-    "main.js": "/landing-page-agency-travels/static/js/main.7efe43ce.js",
+    "main.css": "/landing-page-agency-travels/static/css/main.c74ebb79.css",
+    "main.js": "/landing-page-agency-travels/static/js/main.d57f0c87.js",
     "static/js/787.0f8d78ff.chunk.js": "/landing-page-agency-travels/static/js/787.0f8d78ff.chunk.js",
     "index.html": "/landing-page-agency-travels/index.html",
-    "main.1dcaae47.css.map": "/landing-page-agency-travels/static/css/main.1dcaae47.css.map",
-    "main.7efe43ce.js.map": "/landing-page-agency-travels/static/js/main.7efe43ce.js.map",
+    "main.c74ebb79.css.map": "/landing-page-agency-travels/static/css/main.c74ebb79.css.map",
+    "main.d57f0c87.js.map": "/landing-page-agency-travels/static/js/main.d57f0c87.js.map",
     "787.0f8d78ff.chunk.js.map": "/landing-page-agency-travels/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dcaae47.css",
-    "static/js/main.7efe43ce.js"
+    "static/css/main.c74ebb79.css",
+    "static/js/main.d57f0c87.js"
   ]
 }
