@@ -1,0 +1,7 @@
+.hero-bg{
+    /* background-image: url('../../public/3.jpg'); */
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: red;
+}
