@@ -4,14 +4,14 @@ export default function About() {
     return (
         <>  
         <div
-            class="self-stretch flex w-full flex-col items-stretch pl-8 max-md:max-w-full"
+            class="self-stretch flex w-full flex-col items-stretch mt-10 pl-8 max-md:max-w-full"
         >
             <div
                 class=" pl-5 pr-20 max-md:max-w-full max-md:mx-auto"
             >
                 <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                     <div
-                        class="flex flex-col items-stretch w-[55%] max-md:w-full max-md:ml-0"
+                        class="flex flex-col items-stretch h-full w-[55%] max-md:w-[100%]  max-md:ml-0"
                     >
                         <img
                             loading="lazy"
@@ -22,7 +22,7 @@ export default function About() {
                     <div
                         class="flex flex-col items-stretch w-[45%] ml-5 max-md:w-full max-md:ml-0"
                     >
-                        <div class="flex flex-col mt-24 max-md:max-w-full max-md:mt-10">
+                        <div class="flex flex-col  max-md:max-w-full ">
                             <div
                                 class="text-teal-800 text-base font-medium self-stretch max-md:max-w-full"
                             >
@@ -59,24 +59,24 @@ export default function About() {
                     class="flex grow basis-[0%] flex-col items-stretch max-sm:mx-auto max-sm:pl-5"
                 >
                     <div
-                        class="text-cyan-400 text-opacity-50 text-4xl leading-9 whitespace-nowrap text-center max-md:mx-auto max-sm:mx-auto"
+                        class="text-cyan-500 text-opacity-50 text-4xl leading-9 whitespace-nowrap text-center max-md:mx-auto max-sm:mx-auto"
                     >
                         200+
                     </div>
                     <div
-                        class="text-neutral-800 text-opacity-50 text-center text-xl leading-7 capitalize mt-5 max-md:mx-auto max-sm:mx-auto"
+                        class="text-black text-opacity-50 text-center text-xl leading-7 capitalize mt-5 max-md:mx-auto max-sm:mx-auto"
                     >
                         Customer & partners
                     </div>
                 </div>
                 <div class="flex grow basis-[0%] flex-col items-stretch max-sm:mx-auto">
                     <div
-                        class="text-cyan-400 text-opacity-50 text-4xl leading-9 whitespace-nowrap text-center max-md:mx-auto max-sm:mx-auto"
+                        class="text-cyan-500 text-opacity-50 text-4xl leading-9 whitespace-nowrap text-center max-md:mx-auto max-sm:mx-auto"
                     >
                         500+
                     </div>
                     <div
-                        class="text-neutral-800 text-opacity-50 text-center text-xl leading-7 capitalize mt-5 max-md:mx-auto max-sm:mx-auto"
+                        class="text-black text-opacity-50 text-center text-xl leading-7 capitalize mt-5 max-md:mx-auto max-sm:mx-auto"
                     >
                         Place in the world
                     </div>
@@ -85,12 +85,12 @@ export default function About() {
                     class="flex grow basis-[0%] flex-col items-stretch max-sm:mx-auto max-sm:pr-2.5"
                 >
                     <div
-                        class="text-cyan-300 text-opacity-50 text-4xl leading-9 whitespace-nowrap text-center max-md:mx-auto max-sm:mx-auto"
+                        class="text-cyan-500 text-opacity-50 text-4xl leading-9 whitespace-nowrap text-center max-md:mx-auto max-sm:mx-auto"
                     >
                         1k+
                     </div>
                     <div
-                        class="text-neutral-800 text-opacity-50 text-center text-xl leading-7 capitalize mt-5 max-md:mx-auto max-sm:leading-5 max-sm:mx-auto"
+                        class="text-black text-opacity-50 text-center text-xl leading-7 capitalize mt-5 max-md:mx-auto max-sm:leading-5 max-sm:mx-auto"
                     >
                         Success Journey
                     </div>
@@ -119,7 +119,7 @@ export default function About() {
                                 he best travel agency for you
                             </div>
                             <div
-                                class="text-slate-900 text-opacity-50 text-3xl font-light leading-[53px] capitalize ml-4 mt-20 max-md:max-w-full max-md:text-lg max-md:leading-8 max-md:mt-10 max-sm:text-2xl max-sm:font-light max-sm:leading-9 max-sm:mx-auto"
+                                class="text-slate-900 text-opacity-50 text-3xl font-light leading-[53px] capitalize mt-6  max-md:max-w-full max-md:text-lg max-md:leading-8 max-md:mt-10 max-sm:text-2xl max-sm:font-light max-sm:leading-9 max-sm:mx-auto"
                             >
                                 At Global Escapes, we redefine travel experiences, crafting
                                 unforgettable memories worldwide. Our dedicated team curates
@@ -128,7 +128,7 @@ export default function About() {
                                 Embrace the extraordinary with us and unlock the world's wonders.
                             </div>
                             <div
-                                class="text-slate-900 text-3xl leading-[100px] lowercase mt-16 max-md:max-w-full max-md:mt-10 max-sm:mx-auto"
+                                class="text-blue-700 text-xl leading-[100px] lowercase max-md:max-w-full max-md:mt-10 max-sm:mx-auto"
                             >
                                 <span class="uppercase">r</span>
                                 ead more about us

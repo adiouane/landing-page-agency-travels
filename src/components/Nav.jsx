@@ -1,69 +1,99 @@
 import React from "react";
+import { useEffect } from "react";
 
 const Nav = () => {
+    const [show, handleShow] = React.useState(false);
     return (
         <>
-            <div
-                class=" bg-cyan-800 rounded-lg flex items-stretch justify-between gap-5 mx-12 max-md:max-w-full max-md:flex-wrap max-md:self-center max-md:mr-2.5 max-sm:flex max-sm:flex-row max-sm:overflow-auto max-sm:self-center"
-            >
-                <div
-                    class="flex items-center justify-between gap-5 max-md:mx-auto max-sm:mx-auto"
-                >
-                    <img
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a54542dde2c13577f9fd097e1d2d4864ed76c38b97548dfc7cb5b944071b78f1?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
-                        class="aspect-[1.02] object-contain object-center w-[55px] overflow-hidden shrink-0 max-w-full"
-                    />
-                    <div
-                        class="text-teal-400 text-2xl italic font-bold tracking-tight my-auto max-md:text-center max-sm:mx-auto"
+
+
+            <nav className="bg-white px-4 py-2 flex flex-wrap justify-between items-center">
+                <div className="flex items-center">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        className="text-[#10b981] mr-2"
                     >
-                        TRAVELS
-                    </div>
+                        <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                        <line x1="4" x2="4" y1="22" y2="15"></line>
+                    </svg>
+                    <span className="font-bold text-[#10b981]">TRAVELS</span>
                 </div>
-                <div
-                    class=" flex items-center justify-between gap-5 my-auto max-md:max-w-full max-md:mx-auto max-sm:mx-auto"
-                >
-                    <div
-                        class="text-teal-300 text-base font-medium tracking-tight  max-md:text-center max-sm:text-center max-sm:mx-auto"
-                    >
+                <div className="hidden md:flex space-x-8">
+                    <a className="text-gray-600 hover:text-gray-900   " href="#">
                         Home
-                    </div>
-                    <div
-                        class="text-black text-opacity-80 text-base font-medium tracking-tight  max-md:text-center"
-                    >
+                    </a>
+                    <a className="text-gray-600 hover:text-gray-900   " href="#">
                         About
-                    </div>
-                    <div
-                        class="text-black text-opacity-80 text-base font-medium tracking-tight text-center max-md:text-center max-md:mx-auto max-sm:text-center"
-                    >
+                    </a>
+                    <a className="text-gray-600 hover:text-gray-900   " href="#">
                         Experiences
-                    </div>
-                    <div
-                        class="flex items-center justify-between gap-5 m-auto  max-md:max-w-full max-md:flex-wrap max-md:m-auto"
-                    >
-                        <div
-                            class="text-black text-opacity-80 text-base font-medium tracking-tight self-center grow whitespace-nowrap text-center my-auto max-md:text-center max-md:mx-auto"
-                        >
-                            Packages
-                        </div>
-                        <div
-                            class="text-black text-opacity-80 text-base font-medium tracking-tight self-center text-center my-auto max-md:text-center max-md:mb-auto max-md:mx-auto"
-                        >
-                            Contact Us
-                        </div>
-                        <div
-                            class="text-black text-opacity-80 text-base font-medium tracking-tight self-center my-auto max-md:text-center max-md:mx-auto"
-                        >
-                            Blog
-                        </div>
-                        <div
-                            class="text-gray-900 text-sm font-semibold tracking-tight whitespace-nowrap justify-center items-stretch bg-cyan-300 self-stretch grow px-9 py-3.5 rounded-3xl max-md:m-auto max-md:pl-8 max-md:pr-8"
-                        >
-                            Book now
-                        </div>
-                    </div>
+                    </a>
+                    <a className="text-gray-600 hover:text-gray-900   " href="#">
+                        Packages
+                    </a>
+                    <a className="text-gray-600 hover:text-gray-900   " href="#">
+                        Contact Us
+                    </a>
+                    <a className="text-gray-600 hover:text-gray-900   " href="#">
+                        Blog
+                    </a>
                 </div>
-            </div>
+
+                <div className="md:hidden flex flex-grow justify-end"
+
+                >
+                    <button className="text-gray-600 hover:text-gray-900    focus:outline-none">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            className=""
+                            onClick={() => handleShow(!show)}
+                        >
+                            <line x1="4" x2="20" y1="12" y2="12"></line>
+                            <line x1="4" x2="20" y1="6" y2="6"></line>
+                            <line x1="4" x2="20" y1="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+                {show &&
+                    <div className="flex flex-col  items-center md:hidden">
+                        <a className=" py hover:text-gray-900  w-full p-1 border font-bold text-black opacity-70   " href="#">
+                            Home
+                        </a>
+                        <a className=" hover:text-gray-900  w-full p-1 border font-bold text-black opacity-70  " href="#">
+                            About
+                        </a>
+                        <a className=" hover:text-gray-900  w-full p-1 border font-bold text-black opacity-70  " href="#">
+                            Experiences
+                        </a>
+                        <a className=" hover:text-gray-900  w-full p-1 border font-bold text-black opacity-70  " href="#">
+                            Packages
+                        </a>
+                        <a className=" hover:text-gray-900  w-full p-1 border font-bold text-black opacity-70  " href="#">
+                            Contact Us
+                        </a>
+                        <a className=" hover:text-gray-900  w-full p-1 border font-bold text-black opacity-70  " href="#">
+                            Blog
+                        </a>
+                    </div>
+                }
+
         </>
     );
 };
