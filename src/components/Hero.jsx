@@ -12,7 +12,7 @@ const Hero = () => {
 
               
                 <div
-                    class="text-indigo-950 text-6xl font-bold leading-[61px] tracking-[2.5px] max-w-[635px] ml-3.5 mt-16 max-md:max-w-full max-md:text-4xl max-md:leading-10 max-md:mt-10"
+                    class="text-indigo-950 text-6xl font-bold leading-[61px] tracking-[2.5px] max-w-[635px] ml-3.5  max-md:max-w-full max-md:text-4xl max-md:leading-10 max-md:mt-10"
                 >
                     Embark on Your Dream Adventure!
                 </div>
@@ -25,20 +25,21 @@ const Hero = () => {
                         the.
                     </font>
                 </div>
+                <div
+                    class="text-white text-center text-base font-bold shadow-2xl mt-5 bg-teal-800 w-[182px] max-w-full justify-center items-stretch ml-3.5  py-4 rounded-xl max-md:text-sm max-md:w-[105px] max-md:ml-2.5 max-md:mt-10 max-md:px-1 max-md:py-4"
+                >
+                    Book Now!
+                </div>
                 </div>
               
                 <div>
-                    <img src="/5.jpg" alt="hero" 
-                    className="object-cover object-center  h-full rounded-xl shadow-2xl max-w-[735px] max-h-[635px] ml-3.5 max-md:max-w-full max-md:rounded-xl max-md:shadow-2xl max-md:ml-0 max-md:mt-10 max-md:mx-auto max-sm:ml-0 max-sm:mt-10 max-sm:mx-auto"
+                    <img src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="hero" 
+                    className="object-cover object-center  h-full rounded-xl shadow-2xl max-w-[635px] max-h-[635px] ml-3.5 max-md:max-w-full max-md:rounded-xl max-md:shadow-2xl max-md:ml-0 max-md:mt-10 max-md:mx-auto max-sm:ml-0 max-sm:mt-10 max-sm:mx-auto"
 
                     />
                 </div>
                 </div>
-                <div
-                    class="text-white text-center text-base font-bold shadow-2xl bg-teal-800 w-[182px] max-w-full justify-center items-stretch ml-3.5 mt-4 px-6 py-4 rounded-xl max-md:text-sm max-md:w-[105px] max-md:ml-2.5 max-md:mt-10 max-md:px-1 max-md:py-4"
-                >
-                    Book Now!
-                </div>
+         
             </div>
         </>
     )
