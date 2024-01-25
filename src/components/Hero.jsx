@@ -32,13 +32,6 @@ const Hero = () => {
                     Book Now!
                 </div>
                 </div>
-{/*               
-                <div>
-                    <img src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="hero" 
-                    className="object-cover object-center  h-full rounded-xl shadow-2xl max-w-[635px] max-h-[635px] ml-3.5 max-md:max-w-full max-md:rounded-xl max-md:shadow-2xl max-md:ml-0 max-md:mt-10 max-md:mx-auto max-sm:ml-0 max-sm:mt-10 max-sm:mx-auto"
-
-                    />
-                </div> */}
                 </div>
          
             </div>
