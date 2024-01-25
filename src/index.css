@@ -14,5 +14,5 @@ code {
 
 .App {
   background: rgb(213,242,248);
-  background: linear-gradient(13deg, rgba(213,242,248,1) 0%, rgba(255,255,255,1) 35%, rgba(177,227,240,1) 100%);
+  background: linear-gradient(13deg, rgba(213,242,248,1) 0%, rgba(255,255,255,1) 49%, rgba(213,242,248,1) 100%);
 }
