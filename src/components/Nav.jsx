@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 
 const Nav = () => {
     const [show, handleShow] = React.useState(false);
