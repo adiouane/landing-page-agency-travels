@@ -4,7 +4,7 @@ export default function Testimonial() {
     return (
         <>
             <div
-                class="flex justify-center self-center w-[970px] max-w-full mt-20 px-5 max-md:mt-10"
+                class="flex justify-center self-center w-[1370px] max-w-full mt-20 px-5 max-md:mt-10"
             >
                 <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                     <div
