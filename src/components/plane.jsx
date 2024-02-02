@@ -21,7 +21,8 @@ export default function Plane() {
                         <div
                             class="flex-col overflow-hidden relative flex min-h-[626px] grow justify-center items-center px-16 py-12 max-md:max-w-full max-md:h-auto max-md:grow-0 max-md:min-h-[514px] max-md:mt-10 max-md:px-5"
                         >
-                            <img
+                            <img alt=""
+                                
                                 loading="lazy" // is good for performance
                                 srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/8c2882fb6b55e004dd7de796f4a29aadce86793e0ecb9b2c2d4307499f4dd964?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=100 100w,
                                         https://cdn.builder.io/api/v1/image/assets/TEMP/8c2882fb6b55e004dd7de796f4a29aadce86793e0ecb9b2c2d4307499f4dd964?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=200 200w,
@@ -63,7 +64,8 @@ export default function Plane() {
                                         <div
                                             class="flex-col overflow-hidden relative flex aspect-[0.9150326797385621] grow items-center px-20 py-12 max-md:mt-5 max-md:px-5"
                                         >
-                                            <img
+                                            <img alt=""
+                                                
                                                 loading="lazy"
                                                 srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/93a5ad38573741adf4cd887e955b588f29edec31e01b2ef998ff86a182aa7545?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                                                 class="absolute h-full p-8 object-cover object-center inset-0"
@@ -86,7 +88,8 @@ export default function Plane() {
                                         <div
                                             class="flex-col overflow-hidden relative flex aspect-[0.9150326797385621] grow items-center px-20 py-12 max-md:mt-5 max-md:px-5"
                                         >
-                                            <img
+                                            <img alt=""
+                                                
                                                 loading="lazy"
                                                 srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e34d035e99470c949d4156f5027a4ba6d373b8c849acdc230109304583615f3c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                                                 class="absolute h-full p-8 object-cover object-center inset-0"
@@ -108,7 +111,8 @@ export default function Plane() {
                             <div
                                 class="flex-col overflow-hidden relative flex min-h-[450px] w-full justify-center items-center mt-3.5 px-16 py-12 max-md:max-w-full max-md:px-5"
                             >
-                                <img
+                                <img alt=""
+                                    
                                     loading="lazy"
                                     srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f96c09347c63e9a23d78af545af3d53fc2109736af9c07428a53cb4c432e3969?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                                     class="absolute h-full w-full p-8 inset-0"

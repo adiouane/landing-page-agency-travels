@@ -14,17 +14,20 @@ export default function Footer() {
                         4517 Washington Ave. Manchester, Kentucky 39495
                     </div>
                     <div class="items-stretch flex gap-3 mt-5 pr-20 max-md:pr-5">
-                        <img
+                        <img alt=""
+                            
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/99530196c569dd12d5ff12cbd9aebb50ff41253ac7d525391759103366f02300?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                             class="aspect-square object-contain object-center w-6 justify-center items-center overflow-hidden shrink-0 max-w-full"
                         />
-                        <img
+                        <img alt=""
+                            
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/820d8124c8ef20df524801127f654c93f349b601f17d514a2a92a42981411e2c?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                             class="aspect-square object-contain object-center w-6 justify-center items-center overflow-hidden shrink-0 max-w-full"
                         />
-                        <img
+                        <img alt=""
+                            
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/0b0bd23dbcdcf80128e5232029300615316dc95efc371be7393b8a6e45aaf393?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                             class="aspect-square object-contain object-center w-6 justify-center items-center overflow-hidden shrink-0 max-w-full"
@@ -72,7 +75,8 @@ export default function Footer() {
                         <div class="text-zinc-500 text-xs leading-4 mr-auto my-auto">
                             Enter your email address
                         </div>
-                        <img
+                        <img alt=""
+                            
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc3fdd9671847257a90974822be0ca650532989446c6f10a2b3e9626b18531fa?apiKey=c2a9b141e86b4f86b11cebb14749f34c&"
                             class="aspect-square object-contain object-center w-8 overflow-hidden self-stretch shrink-0 max-w-full"
