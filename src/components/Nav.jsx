@@ -27,24 +27,24 @@ const Nav = () => {
                     <span className="font-bold text-3xl text-white">TRAVELS</span>
                 </div>
                 <div className="hidden md:flex space-x-8">
-                    <a className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
+                    <button className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
                         Home
-                    </a>
-                    <a className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
+                    </button>
+                    <button className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
                         About
-                    </a>
-                    <a className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
+                    </button>
+                    <button className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
                         Experiences
-                    </a>
-                    <a className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
+                    </button>
+                    <button className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
                         Packages
-                    </a>
-                    <a className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
+                    </button>
+                    <button className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
                         Contact Us
-                    </a>
-                    <a className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
+                    </button>
+                    <button className="text-white font-bold uppercase text-xl hover:text-cyan-900   " href="#">
                         Blog
-                    </a>
+                    </button>
                 </div>
 
                 <div className="md:hidden flex flex-grow justify-end"
@@ -73,24 +73,24 @@ const Nav = () => {
             </nav>
                 {show &&
                     <div className="flex flex-col  items-center md:hidden">
-                        <a className=" py hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase    " href="#">
+                        <button className=" py hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase    " href="#">
                             Home
-                        </a>
-                        <a className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
+                        </button>
+                        <button className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
                             About
-                        </a>
-                        <a className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
+                        </button>
+                        <button className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
                             Experiences
-                        </a>
-                        <a className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
+                        </button>
+                        <button className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
                             Packages
-                        </a>
-                        <a className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
+                        </button>
+                        <button className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
                             Contact Us
-                        </a>
-                        <a className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
+                        </button>
+                        <button className=" hover:text-cyan-900  w-full p-1 border text-cyan-900 font-bold uppercase   " href="#">
                             Blog
-                        </a>
+                        </button>
                     </div>
                 }
 
